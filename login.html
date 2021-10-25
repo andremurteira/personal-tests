@@ -88,6 +88,62 @@
         .top-container-margin-project {
           margin-top: 20px;
         }
+        .container-login {
+          max-width: 450px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .card {
+          position: relative;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          min-width: 0;
+          word-wrap: break-word;
+          background-color: #fff;
+          background-clip: border-box;
+          border: 0px solid rgba(0,0,0,.125);
+          border-radius: 0.5rem;
+          margin-bottom: 30px;
+          -webkit-box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.09);
+                  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.09);
+        }
+        .card-header {
+          padding: 1rem  1.5rem;
+          margin-bottom: 0;
+          background-color: rgba(255,255,255,1);
+          border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+        .card-header:first-child {
+          border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+        }
+        .card-header h5{
+          margin-bottom: 0;
+          vertical-align: middle;
+        }
+        .card-header i{
+          font-size: 0.9rem;
+          position:absolute;
+          margin-top:1px;
+          margin-left:-1rem;
+        }
+        .card-body {
+          padding: 1rem 1.5rem;
+        }
+        .card-footer {
+          padding: 1rem 1.5rem;
+          background-color: rgba(255,255,255,1);
+          border-top: 1px solid rgba(0,0,0,.125);
+        }
+        .header{
+          margin-top: 58px;
+          padding: 1rem 0;
+          background-color: #FFF;
+          width: 100%;
+          -webkit-box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.09);
+                  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.09);
+        }
 
         #content {
             width: 100%;
@@ -137,35 +193,6 @@
           color: #fff;
           background-color: #0970CA;
           border-color: #0970CA;
-        }
-        @media(max-width:767px){
-          .navbar-dark .navbar-text {
-                font-size: 11px;
-                margin-right:5px;
-          }
-          .top-container-margin{
-              margin-top:80px;
-          }
-            .top-container-margin-project {
-                margin-top: 20px;
-            }
-            .card-header h4{
-                font-size:1rem;
-                margin-top:5px;
-            }
-            .onboarding {
-                margin-top: 10px;
-                margin-bottom: 10px;
-                padding: 0;
-                height: 80px;
-            }
-
-          .hide-small-item { display: none;}
-          .show-small-item { display: block;}
-          
-          .h4, h4 {
-                font-size: 1.2rem;
-          }
         }
       </style>
 

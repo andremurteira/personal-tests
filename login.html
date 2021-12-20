@@ -218,7 +218,9 @@
     <script>
 
       function setupPwdTogglers(){
-        console.info('teste');
+        $.ajaxComplete(function() {
+          console.info('it worked');
+        });
       }
 
       setupPwdTogglers();

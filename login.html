@@ -216,15 +216,10 @@
       </div><!--end card-->      
     </div>
     <script>
-
-      function setupPwdTogglers(){
-        jQuery(document).ajaxComplete(function() {
-          console.info('testing1');
-          debugger;
-        });
-      }
-
-      setupPwdTogglers();
+      jQuery(document).ajaxComplete(function() {
+        jQuery('#password').val('');
+        console.info(jQuery('.error:visible'));
+      });
     </script>
   </body>
 </html>

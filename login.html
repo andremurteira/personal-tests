@@ -217,8 +217,9 @@
     </div>
     <script>
       jQuery(document).ajaxComplete(function() {
-        jQuery('#password').val('');
-        console.info(jQuery('.error:visible'));
+        if(jQuery('.error:visible').length > 0){
+          jQuery('#password').val('');
+        }
       });
     </script>
   </body>
